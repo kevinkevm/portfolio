@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1 class="name">Kevin Manuel</h1>
+            <nav>
+                <a href="#work" class="nav-link active">History & Work</a>
+                <a href="#about" class="nav-link">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Work Page -->
+        <div id="work-page" class="page-content active">
+            <section class="left-panel">
+                <div class="left-section">
+                    <h3 class="section-subtitle">EXPERIENCE</h3>
+                    <div class="experience-list">
+                         <div class="experience-item">
+                            <div class="date">2023-2025</div>
+                            <div class="role">Yang Bener Nih?</div>
+                            <div class="company">Founder</div>
+                            <div class="description">Warning Indonesians against misinformation specifically regarding the 2024 National Election. Our WhatsApp Chatbot flags hoaxes and alerts them to our users.</div>
+                        </div>
+                        <div class="experience-item">
+                            <div class="date">2023-2024</div>
+                            <div class="role">Indomahkota LLC</div>
+                            <div class="company">Software Engineer</div>
+                            <div class="description">Built an all-in-one inventory management and invoicing software. Reduced time taken to create and send out invoices by 400%. </div>
+                        </div>
+                        <div class="experience-item">
+                            <div class="date">2022-2023</div>
+                            <div class="role">Green Revival</div>
+                            <div class="company">Inventory Manager</div>
+                            <div class="description">Handled inventory using basic spreadsheet tools in a Non-Profit Organisation cleaning trash from the local community.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="left-section">
+                    <h3 class="section-subtitle">EDUCATION</h3>
+                    <div class="experience-list">
+                        <div class="experience-item">
+                            <div class="date">2024-2026</div>
+                            <div class="role">University of Indonesia</div>
+                            <div class="company">Bachelor of Computer Science </div>
+                            <div class="description">International Class Double Degree Programme. Transferring to an Overseas University in 2026</div>
+                        </div>
+
+                        <div class="experience-item">
+                            <div class="date">2012-2024</div>
+                            <div class="role">Singapore International School</div>
+                            <div class="company">High School</div>
+                            <div class="description">Graduated with an IB Diploma <br> HL: Maths,Physics,Computer Science <br>SL: Economics,Indonesian B,English A
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="right-panel">
+                <h2 class="section-title">SELECTED WORK</h2>
+                
+                <div class="project-tabs">
+                    <div class="tab-buttons">
+                        <button class="tab-button active" data-project="ecommerce">Indomahkota Portal</button>
+                        <button class="tab-button" data-project="taskmanager">Persongality</button>
+                        <button class="tab-button" data-project="dataviz">Yang Bener Nih?</button>
+                        <button class="tab-button" data-project="weather">Research Paper</button>
+                    </div>
+                    
+                    <div class="project-content">
+                        <div class="project-display active" id="ecommerce">
+                            <div class="project-top">
+                                <div class="project-images">
+                                    <div class="project-preview-large">
+                                        <img src="./indomahkotaportalpics/loginpage.png" alt="Indomahkota Portal - Login Page" class="project-main-image" />
+                                    </div>
+                                    <div class="project-gallery">
+                                        <div class="project-thumbnail" data-image="./indomahkotaportalpics/dashboard page.png" data-alt="Dashboard Page">
+                                            <img src="./indomahkotaportalpics/dashboard page.png" alt="Dashboard" class="thumbnail-image" />
+                                        </div>
+                                        <div class="project-thumbnail" data-image="./indomahkotaportalpics/inventorypage.png" data-alt="Inventory Page">
+                                            <img src="./indomahkotaportalpics/inventorypage.png" alt="Inventory" class="thumbnail-image" />
+                                        </div>
+                                        <div class="project-thumbnail" data-image="./indomahkotaportalpics/invoicepage.png" data-alt="Invoice Page">
+                                            <img src="./indomahkotaportalpics/invoicepage.png" alt="Invoice" class="thumbnail-image" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="project-details-side">
+                                    <h3>Indomahkota Portal Site</h3>
+                                    <div class="project-description">
+                                        <p>Developed a full-featured All-In-One management system for one of Indonesia’s largest contractors (outsourcing company), operating with over 500 employees across more than 10 cities. </p>
+                                        <p>Solved the client's previous synchronization challenges in managing inventory, invoicing, and data across multiple locations and administrative users.</p>
+                                    </div>
+                                    <div class="project-tags">
+                                        <span class="tag">React</span>
+                                        <span class="tag">Tailwind</span>
+                                        <span class="tag">PHP</span>
+                                        <span class="tag">PostgreSQL</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-details-bottom">
+                                <div class="project-description-full">
+                                    <p><b>Key Features:</b></p>
+                                    <p> - Multi-admin real-time inventory synchronization across all branches.</p>
+                                    <p> - Automated invoicing to reduce manual processing time.</p>
+                                    <p> - Finance, revenue and profits tracker with charts.</p>
+                                    <p> - Multiple roles with different permissions.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="project-display" id="taskmanager">
+                            <div class="project-top">
+                                <div class="project-images">
+                                    <div class="project-preview-large">
+                                        <img src="./persongalitypics/Screenshot 2025-06-16 at 14.14.52.png" alt="Persongality - Main Interface" class="project-main-image" />
+                                    </div>
+                                    <div class="project-gallery">
+                                        <div class="project-thumbnail" data-image="./persongalitypics/Screenshot 2025-06-16 at 14.14.41.png" data-alt="Persongality - Feature View">
+                                            <img src="./persongalitypics/Screenshot 2025-06-16 at 14.14.41.png" alt="Feature View" class="thumbnail-image" />
+                                        </div>
+                                        <div class="project-thumbnail" data-image="./persongalitypics/Screenshot 2025-06-16 at 14.15.18.png" data-alt="Persongality - Detail Page">
+                                            <img src="./persongalitypics/Screenshot 2025-06-16 at 14.15.18.png" alt="Detail Page" class="thumbnail-image" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="project-details-side">
+                                    <h3>persongality.com </h3>
+                                    <div class="project-description">
+                                        <p>A fun little project I made that matches a user's spotify listening habits to personality traits.</p>
+                                    
+                                    </div>
+                                    <div class="project-tags">
+                                        <span class="tag">Spotify API</span>
+                                        <span class="tag">Standard Frontend</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-details-bottom">
+                                <div class="project-description-full">
+                                    <p>Unfortunately this project was discontinued due to a recent rule change made by Spotify son May 15th 2025 that prevented indie developers from using their API.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="project-display" id="dataviz">
+                            <div class="project-top">
+                                <div class="project-images">
+                                    <div class="project-preview-large">
+                                        <img src="./yangbenernihpics/mainpicture.png" alt="Yang Bener Nih? - Main Interface" class="project-main-image yang-bener-main" />
+                                    </div>
+                                    <div class="project-gallery">
+                                        <div class="project-thumbnail" data-image="./yangbenernihpics/Screenshot 2025-06-16 at 14.52.00.png" data-alt="Yang Bener Nih? - Dashboard">
+                                            <img src="./yangbenernihpics/Screenshot 2025-06-16 at 14.52.00.png" alt="Dashboard" class="thumbnail-image" />
+                                        </div>
+                                        <div class="project-thumbnail" data-image="./yangbenernihpics/milestones.png" data-alt="Yang Bener Nih? - Milestones">
+                                            <img src="./yangbenernihpics/milestones.png" alt="Milestones" class="thumbnail-image" />
+                                        </div>
+                                        <div class="project-thumbnail" data-image="./yangbenernihpics/Screenshot 2025-06-16 at 14.55.35.png" data-alt="Yang Bener Nih? - Features">
+                                            <img src="./yangbenernihpics/Screenshot 2025-06-16 at 14.55.35.png" alt="Features" class="thumbnail-image" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="project-details-side">
+                                    <h3>Yang Bener Nih?</h3>
+                                    <div class="project-description">
+                                        <p>Founded a misinformation detection platform aimed at protecting Indonesian voters during the 2024 National Election.</p>
+                                        <p>Leveraging a custom-built WhatsApp chatbot, the system automatically flags false information helping users make more informed decisions.</p>
+                                    </div>
+                                    <div class="project-tags">
+                                        <span class="tag">Twilio API</span>
+                                        <span class="tag">Python</span>
+                                        <span class="tag">Flask</span>
+                                        <span class="tag">Custom Search Engine</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-details-bottom">
+                                <div class="project-description-full">
+                                    <p><b>Key Features:</b></p>
+                                    <p> - Real-time misinformation detection using a custom search engine.</p>
+                                    <p> - WhatsApp chatbot integration for easy user interaction.</p>
+                                    <p> - Multi-language support for Indonesian and English.</p>
+                                    <p> - Worked directly with the Ministry of Information (KOMINFO) hoax database and other fact-checking sources.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="project-display" id="weather">
+                            <div class="project-top">
+                                <div class="project-images">
+                                    <div class="project-preview-large">
+                                        <img src="./researchpaperpics/main.png" alt="Research Paper - Main Cover" class="project-main-image" />
+                                    </div>
+                                    <div class="project-gallery">
+                                        <div class="project-thumbnail" data-image="./researchpaperpics/Screenshot 2025-06-16 at 15.07.28.png" data-alt="Research Paper - Analysis">
+                                            <img src="./researchpaperpics/Screenshot 2025-06-16 at 15.07.28.png" alt="Analysis" class="thumbnail-image" />
+                                        </div>
+                                        <div class="project-thumbnail" data-image="./researchpaperpics/Screenshot 2025-06-16 at 15.07.54.png" data-alt="Research Paper - Results">
+                                            <img src="./researchpaperpics/Screenshot 2025-06-16 at 15.07.54.png" alt="Results" class="thumbnail-image" />
+                                        </div>
+                                        <div class="project-thumbnail" data-image="./researchpaperpics/Screenshot 2025-06-16 at 15.08.06.png" data-alt="Research Paper - Conclusion">
+                                            <img src="./researchpaperpics/Screenshot 2025-06-16 at 15.08.06.png" alt="Conclusion" class="thumbnail-image" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="project-details-side">
+                                    <h3>A comparative analysis of Reinforcement Learning and
+                                        Depth First Search in solving mazes</h3>
+                                    <div class="project-description">
+                                        <p>Conducted an academic research project analyzing how Reinforcement Learning compares to Depth First Search (DFS) in solving mazes of increasing size and complexity.</p>
+                                    </div>
+                                    <div class="project-tags">
+                                        <span class="tag">PyTorch</span>
+                                        <span class="tag">Pandas</span>
+                                        <span class="tag">NumPy</span>
+                                        <span class="tag">PyMaze</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-details-bottom">
+                                <div class="project-description-full">
+                                    <p>Reinforcement Learning agents were trained using Q-learning, while DFS was applied as a baseline deterministic search algorithm. Performance metrics such as solution time, path length, and computational resources were collected and compared.</p>
+                                    <p>Explored the possibilities of using Reinforcement Learning to improve or prove solutions found Mathematically.</p>
+                                    <p><b>Key Features: </b></p>
+
+                                    <p>- Custom maze generation and simulation framework</p>
+                                    <p>- Q-learning based Reinforcement Learning agent</p>
+                                    <p>- Visualizations of agent behavior and path optimization</p>
+                                    <P>- Performance benchmarking across multiple maze sizes</P>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- About Page -->
+        <div id="about-page" class="page-content">
+            <section class="about-container">
+                <div class="about-photo-section">
+                    <div class="photo-frame">
+                        <img src="aboutme.JPG" alt="Your Name" class="passport-photo">
+                    </div>
+                                          <div class="contact-info">
+                         <p><a href="mailto:kevin.manuel41@ui.ac.id">kevin.manuel41@ui.ac.id</a></p>
+                         <p><a href="https://linkedin.com/in/kevmquu" target="_blank">linkedin.com/in/kevmquu</a></p>
+                         <p><a href="https://github.com/kevinkevm" target="_blank">github.com/kevinkevm</a></p>
+                         <p><a href="https://instagram.com/kevmquu" target="_blank">instagram.com/kevmquu</a></p>
+                      </div>
+                </div>
+                
+                <div class="about-content">
+                    <h2 class="section-title">ABOUT ME</h2>
+        
+                    <div class="about-text">
+                        <p>Hello! I'm Kevin,I'm currently a student at the University of Indonesia studying Computer Science before I transfer overseas in 2026 to pursue my second Bachelor's Degree in Artifical Intelligence.</p>
+                        
+                        <p>I started off like many others, developing silly websites and web apps just for personal use, solving day to day problems I had. Though, I have always been interested in the theory side of Computer Science.</p>
+                        
+                        <p>Now I'm most interested in Machine Learning and Quantitative Finance.</p>
+                        
+                        <p>Unpopular opinion: Linear Algebra is harder than Discrete Math.</p>
+                    </div>
+                    
+                    <div class="skills-section">
+                        <h3>Core Technologies</h3>
+                        <div class="skills-grid">
+                            <div class="skill-category">
+                                <h4>Frontend</h4>
+                                <ul>
+                                    <li>React / Vue.js</li>
+                                    <li>JavaScript / TypeScript</li>
+                                    <li>HTML5 / CSS3</li>
+                                    <li>Responsive Design</li>
+                                </ul>
+                            </div>
+                            <div class="skill-category">
+                                <h4>Backend</h4>
+                                <ul>
+                                    <li>Node.js / Python</li>
+                                    <li>RESTful APIs</li>
+                                    <li>Database Design</li>
+                                    <li>Cloud Services</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Navigation functionality
+            const navLinks = document.querySelectorAll('.nav-link');
+            const pages = document.querySelectorAll('.page-content');
+            
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetPage = this.getAttribute('href').substring(1) + '-page';
+                    
+                    // Remove active class from all nav links and pages
+                    navLinks.forEach(nav => nav.classList.remove('active'));
+                    pages.forEach(page => page.classList.remove('active'));
+                    
+                    // Add active class to clicked nav and corresponding page
+                    this.classList.add('active');
+                    document.getElementById(targetPage).classList.add('active');
+                });
+            });
+            
+            // Tab functionality for projects
+            const tabButtons = document.querySelectorAll('.tab-button');
+            const projectDisplays = document.querySelectorAll('.project-display');
+            
+            tabButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const projectId = this.getAttribute('data-project');
+                    
+                    // Remove active class from all buttons and displays
+                    tabButtons.forEach(btn => btn.classList.remove('active'));
+                    projectDisplays.forEach(display => display.classList.remove('active'));
+                    
+                    // Add active class to clicked button and corresponding display
+                    this.classList.add('active');
+                    document.getElementById(projectId).classList.add('active');
+                });
+            });
+            
+            // Thumbnail hover preview functionality
+            const thumbnails = document.querySelectorAll('.project-thumbnail');
+            
+            thumbnails.forEach(thumbnail => {
+                thumbnail.addEventListener('mouseenter', function(e) {
+                    const imageSrc = this.getAttribute('data-image');
+                    const imageAlt = this.getAttribute('data-alt');
+                    
+                    if (imageSrc) {
+                        // Create preview overlay
+                        const preview = document.createElement('div');
+                        preview.className = 'image-preview-overlay';
+                        preview.innerHTML = `<img src="${imageSrc}" alt="${imageAlt}" class="preview-image">`;
+                        
+                        // Position the preview
+                        const rect = this.getBoundingClientRect();
+                        preview.style.left = rect.left - 300 + 'px';
+                        preview.style.top = rect.top - 200 + 'px';
+                        
+                        document.body.appendChild(preview);
+                        
+                        // Trigger animation
+                        requestAnimationFrame(() => {
+                            preview.classList.add('show');
+                        });
+                        
+                        // Store reference for cleanup
+                        this.previewElement = preview;
+                    }
+                });
+                
+                thumbnail.addEventListener('mouseleave', function() {
+                    if (this.previewElement) {
+                        // Animate out
+                        this.previewElement.classList.remove('show');
+                        
+                        // Remove after animation completes
+                        setTimeout(() => {
+                            if (this.previewElement && document.body.contains(this.previewElement)) {
+                                document.body.removeChild(this.previewElement);
+                            }
+                            this.previewElement = null;
+                        }, 300);
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html> 
